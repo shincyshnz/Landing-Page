@@ -1,0 +1,189 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+body {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    margin: 0;
+    padding: 0px;
+    font-family: Roboto, sans-serif;
+}
+
+.logo,
+.right-links,
+.cards,
+.contacts {
+    margin: 0 150px;
+}
+
+.header,
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1f2937;
+    height: 72px;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    padding: 0;
+    margin: 0;
+    gap: 10px;
+}
+
+li a {
+    text-decoration: none;
+    color: white;
+}
+
+
+.logo {
+    font-size: 24px;
+    font-weight: bolder;
+    color: #F9FAf8;
+    padding: 0;
+}
+
+.right-links {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.contents {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.hero {
+    display: flex;
+    background-color: #1f2937;
+}
+
+.box-one,
+.box-two {
+    display: flex;
+    height: 40vh;
+    margin: 40px 150px 40px;
+}
+
+.box-one {
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+}
+
+.main-text {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #f9faf8;
+}
+
+.secondary-text {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+button#submit {
+    padding: 8px 16px;
+    border-radius: 8px;
+    background: royalblue;
+    border: 1px solid royalblue;
+    color: white;
+    width: 30%;
+}
+
+.title {
+    text-align: center;
+    height: 72px;
+    padding: 20px 0;
+    font-weight: bolder;
+    font-size: 36px;
+    color: #1f2937;
+}
+
+.cards {
+    display: flex;
+    flex-wrap: row wrap;
+    justify-content: center;
+    gap: 32px;
+    margin-bottom: 30px;
+}
+
+.card {
+    max-width: 300px;
+}
+
+.card img {
+    flex-shrink: 1;
+    width: 300px;
+    height: 300px;
+    border-radius: 20px;
+}
+
+.text {
+    font-size: 18px;
+    text-align: center;
+    color: #1f2937;
+    padding: 10px;
+}
+
+.information {
+    background-color: #e5e7eb;
+    font-style: italic;
+    font-size: 36px;
+    color: #1f2937;
+    text-align: justify;
+    text-justify: inter-word;
+    padding: 150px 200px 150px;
+}
+
+#author {
+    font-weight: bolder;
+    font-size: 26px;
+    float: right;
+}
+
+.contacts {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #3882f6;
+    border-radius: 20px;
+    margin: 50px 350px 50px;
+    padding: 50px;
+    color: #f9faf8;
+    font-size: 32px;
+    font-weight: bolder;
+}
+
+.div-one,
+.div-two {
+    flex: 1;
+    padding: 30px;
+}
+
+.div-two {
+    text-align: center;
+}
+
+.div-two button {
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-weight: bolder;
+    background-color: #3882f6;
+    border-color: #e5e7eb;
+    color: #f9faf8;
+}
+
+.contacts span {
+    font-size: 16px;
+    font-weight: none;
+}
+
+.footer {
+    padding: 0 16px;
+    justify-content: center;
+}
